@@ -16,6 +16,30 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGVmYXVsdC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/LayoutPartial/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGF5b3V0UGFydGlhbC9fRm9vdGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/LayoutPartial/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGF5b3V0UGFydGlhbC9fSGVhZGVyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/LayoutPartial/_HeadPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGF5b3V0UGFydGlhbC9fSGVhZFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/LayoutPartial/_ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGF5b3V0UGFydGlhbC9fU2NyaXB0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "QJR6eGyKvX7oX6y2/Nl/ZJehpsYBK6oRyvSin/wQ5SDolgSYKEmj1pXY+rJW56q66iMfioHZqB1HrSCI/s0gIg==",
+  "dgSpecHash": "K9CNILXPMUkz+yhiSCfg7EADgZ1w0IM83/uP0pSmi9+gRKHG6fxHwkHIMHJ7mFtVLfyTWFOGejNHUd7HEuCXJQ==",
   "success": true,
   "projectFilePath": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/TraversalProject.csproj",
   "expectedPackageFiles": [
     "/Users/gani/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/gani/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
+    "/Users/gani/.nuget/packages/fluentvalidation/11.7.1/fluentvalidation.11.7.1.nupkg.sha512",
+    "/Users/gani/.nuget/packages/fluentvalidation.aspnetcore/11.3.0/fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "/Users/gani/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.7.1/fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "/Users/gani/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/gani/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/gani/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
