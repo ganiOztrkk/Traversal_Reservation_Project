@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xsWHxZA2NxRovwosdTszDNJuOn2fgsjplLCciUTvJNU=",
+  "Hash": "4xudcBsw3xKcERI3n3BT6xXXAaHkSwiFFU64/ZbBX38=",
   "Source": "TraversalProject",
   "BasePath": "_content/TraversalProject",
   "Mode": "Default",
@@ -1054,12 +1054,12 @@
       "OriginalItemSpec": "wwwroot/Traversal-Starter/about.html"
     },
     {
-      "Identity": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/assets/css/style-starter.css",
+      "Identity": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/assets/css/style-liberty.css",
       "SourceId": "TraversalProject",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/",
       "BasePath": "_content/TraversalProject",
-      "RelativePath": "Traversal-Starter/assets/css/style-starter.css",
+      "RelativePath": "Traversal-Starter/assets/css/style-liberty.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1068,7 +1068,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Traversal-Starter/assets/css/style-starter.css"
+      "OriginalItemSpec": "wwwroot/Traversal-Starter/assets/css/style-liberty.css"
     },
     {
       "Identity": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/assets/fonts/fontawesome-webfont.eot",
@@ -1870,6 +1870,40 @@
       "OriginalItemSpec": "wwwroot/Traversal-Starter/assets/js/theme-change.js"
     },
     {
+      "Identity": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/blog-single.html",
+      "SourceId": "TraversalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/",
+      "BasePath": "_content/TraversalProject",
+      "RelativePath": "Traversal-Starter/blog-single.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Traversal-Starter/blog-single.html"
+    },
+    {
+      "Identity": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/blog.html",
+      "SourceId": "TraversalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/",
+      "BasePath": "_content/TraversalProject",
+      "RelativePath": "Traversal-Starter/blog.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Traversal-Starter/blog.html"
+    },
+    {
       "Identity": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/contact.html",
       "SourceId": "TraversalProject",
       "SourceType": "Discovered",
@@ -1904,6 +1938,57 @@
       "OriginalItemSpec": "wwwroot/Traversal-Starter/index.html"
     },
     {
+      "Identity": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/landing-single.html",
+      "SourceId": "TraversalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/",
+      "BasePath": "_content/TraversalProject",
+      "RelativePath": "Traversal-Starter/landing-single.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Traversal-Starter/landing-single.html"
+    },
+    {
+      "Identity": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/liberty-license-W3Layouts.txt",
+      "SourceId": "TraversalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/",
+      "BasePath": "_content/TraversalProject",
+      "RelativePath": "Traversal-Starter/liberty-license-W3Layouts.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Traversal-Starter/liberty-license-W3Layouts.txt"
+    },
+    {
+      "Identity": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/pricing.html",
+      "SourceId": "TraversalProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/",
+      "BasePath": "_content/TraversalProject",
+      "RelativePath": "Traversal-Starter/pricing.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Traversal-Starter/pricing.html"
+    },
+    {
       "Identity": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/services.html",
       "SourceId": "TraversalProject",
       "SourceType": "Discovered",
@@ -1919,23 +2004,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Traversal-Starter/services.html"
-    },
-    {
-      "Identity": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/starter-license-W3Layouts.txt",
-      "SourceId": "TraversalProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/",
-      "BasePath": "_content/TraversalProject",
-      "RelativePath": "Traversal-Starter/starter-license-W3Layouts.txt",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/Traversal-Starter/starter-license-W3Layouts.txt"
     }
   ]
 }

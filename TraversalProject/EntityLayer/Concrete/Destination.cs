@@ -10,4 +10,10 @@ public class Destination : IEntity
     public string? Description { get; set; }
     public int Capasity { get; set; }
     public bool Status { get; set; }
+    public string? CoverImage { get; set; }
+    public string? Details1 { get; set; }
+    public string? Details2 { get; set; }
+    public string? ImageUrl2 { get; set; }
+
+    public List<Comment>? Comments { get; set; }
 }

@@ -5,8 +5,8 @@
       "PackagePath": "staticwebassets/Traversal-Starter/about.html"
     },
     {
-      "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/assets/css/style-starter.css",
-      "PackagePath": "staticwebassets/Traversal-Starter/assets/css/style-starter.css"
+      "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/assets/css/style-liberty.css",
+      "PackagePath": "staticwebassets/Traversal-Starter/assets/css/style-liberty.css"
     },
     {
       "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/assets/fonts/FontAwesome.otf",
@@ -197,6 +197,14 @@
       "PackagePath": "staticwebassets/Traversal-Starter/assets/js/theme-change.js"
     },
     {
+      "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/blog-single.html",
+      "PackagePath": "staticwebassets/Traversal-Starter/blog-single.html"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/blog.html",
+      "PackagePath": "staticwebassets/Traversal-Starter/blog.html"
+    },
+    {
       "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/contact.html",
       "PackagePath": "staticwebassets/Traversal-Starter/contact.html"
     },
@@ -205,12 +213,20 @@
       "PackagePath": "staticwebassets/Traversal-Starter/index.html"
     },
     {
-      "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/services.html",
-      "PackagePath": "staticwebassets/Traversal-Starter/services.html"
+      "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/landing-single.html",
+      "PackagePath": "staticwebassets/Traversal-Starter/landing-single.html"
     },
     {
-      "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/starter-license-W3Layouts.txt",
-      "PackagePath": "staticwebassets/Traversal-Starter/starter-license-W3Layouts.txt"
+      "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/liberty-license-W3Layouts.txt",
+      "PackagePath": "staticwebassets/Traversal-Starter/liberty-license-W3Layouts.txt"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/pricing.html",
+      "PackagePath": "staticwebassets/Traversal-Starter/pricing.html"
+    },
+    {
+      "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/Traversal-Starter/services.html",
+      "PackagePath": "staticwebassets/Traversal-Starter/services.html"
     },
     {
       "Id": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/wwwroot/css/site.css",

@@ -20,6 +20,7 @@ public static class IocExtensions
         services.AddScoped<INewsletterService, NewsletterManager>();
         services.AddScoped<ISubAboutService, SubAboutManager>();
         services.AddScoped<ITestimonialService, TestimonialManager>();
+        services.AddScoped<ICommentService, CommentManager>();
         
         services.AddScoped<IAbout2Dal, EfAbout2Dal>();
         services.AddScoped<IAboutDal, EfAboutDal>();
@@ -31,6 +32,7 @@ public static class IocExtensions
         services.AddScoped<INewsletterDal, EfNewsletterDal>();
         services.AddScoped<ISubAboutDal, EfSubAboutDal>();
         services.AddScoped<ITestimonialDal, EfTestimonialDal>();
+        services.AddScoped<ICommentDal, EfCommentDal>();
         
         return services;
     }

@@ -2,6 +2,7 @@ using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.EntityFramework;
+using Microsoft.AspNetCore.Mvc.Razor;
 using TraversalProject.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,7 +12,10 @@ builder.Services.AddControllersWithViews()
     .AddRazorOptions(options =>
     {
         options.ViewLocationFormats.Add("/Pages/{0}.cshtml");
+        options.ViewLocationFormats.Add("/Pages/{1}/{0}" + RazorViewEngine.ViewExtension);
     });
+//builder.Services.Configure<RazorViewEngineOptions>(opt =>
+   // opt.ViewLocationFormats.Add("/Pages/{1}/{0}" + RazorViewEngine.ViewExtension));
 
 builder.Services.AddInjections(); // ioc extensions
 
@@ -34,6 +38,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Default}/{action=Index}/{id?}");
+    pattern: "{controller=Destination}/{action=Index}/{id?}");
 
 app.Run();
