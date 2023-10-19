@@ -1,0 +1,70 @@
+@model UserRegisterVM
+
+@{
+    Layout = null;
+}
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- LINEARICONS -->
+    <link rel="stylesheet" href="/colorlib-regform-26/fonts/linearicons/style.css">
+
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="/colorlib-regform-26/css/style.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+    <div class="inner">
+        <img src="/colorlib-regform-26/images/image-1.png" alt="" class="image-1">
+        <form method="post">
+            <h3>New Account?</h3>
+            <div class="form-holder">
+                <span class="lnr lnr-user"></span>
+                <input type="text" class="form-control" placeholder="Name" asp-for="Name">
+            </div>
+            <span asp-validation-for="Name" style="color: red"></span>
+            <div class="form-holder">
+                <span class="lnr lnr-user"></span>
+                <input type="text" class="form-control" placeholder="Surname" asp-for="Surname">
+            </div>
+            <span asp-validation-for="Surname" style="color: red"></span>
+
+            <div class="form-holder">
+                <span class="lnr lnr-user"></span>
+                <input type="text" class="form-control" placeholder="Username" asp-for="Username">
+            </div>
+            <span asp-validation-for="Username" style="color: red"></span>
+            <div class="form-holder">
+
+                <span class="lnr lnr-envelope"></span>
+                <input type="email" class="form-control" placeholder="Mail" asp-for="Mail">
+            </div>
+            <span asp-validation-for="Mail" style="color: red"></span>
+            <div class="form-holder">
+                <span class="lnr lnr-lock"></span>
+                <input type="password" class="form-control" placeholder="Password" asp-for="Password">
+            </div>
+            <span asp-validation-for="Password" style="color: red"></span>
+            <div class="form-holder">
+                <span class="lnr lnr-lock"></span>
+                <input type="password" class="form-control" placeholder="Confirm Password" asp-for="ConfirmPassword">
+            </div>
+            <span asp-validation-for="ConfirmPassword" style="color: red"></span>
+            <button>
+                <span>Register</span>
+            </button>
+        </form>
+        <img src="/colorlib-regform-26/images/image-2.png" alt="" class="image-2">
+    </div>
+
+</div>
+
+<script src="/colorlib-regform-26/js/jquery-3.3.1.min.js"></script>
+<script src="/colorlib-regform-26/js/main.js"></script>
+</body>

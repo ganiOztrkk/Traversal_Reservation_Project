@@ -2,6 +2,7 @@ using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.EntityFramework;
+using EntityLayer.Concrete;
 
 
 namespace TraversalProject.Extensions;
@@ -10,6 +11,8 @@ public static class IocExtensions
 {
     public static IServiceCollection AddInjections(this IServiceCollection services)
     {
+        services.AddScoped<AppUser>();
+        
         services.AddScoped<IAbout2Service, About2Manager>();
         services.AddScoped<IAboutService, AboutManager>();
         services.AddScoped<IContactService, ContactManager>();
