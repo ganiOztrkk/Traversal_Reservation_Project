@@ -35,10 +35,11 @@ builder.Services.AddControllersWithViews()
     {
         options.ViewLocationFormats.Add("/Pages/{0}.cshtml");
         options.ViewLocationFormats.Add("/Pages/{1}/{0}" + RazorViewEngine.ViewExtension);
+        options.AreaViewLocationFormats.Add("/Areas/{2}/Pages/{1}/{0}.cshtml");
     })
     .AddRazorRuntimeCompilation();
 //builder.Services.Configure<RazorViewEngineOptions>(opt =>
-   // opt.ViewLocationFormats.Add("/Pages/{1}/{0}" + RazorViewEngine.ViewExtension));
+// opt.ViewLocationFormats.Add("/Pages/{1}/{0}" + RazorViewEngine.ViewExtension));
 
 builder.Services.AddInjections(); // ioc extensions
 
@@ -62,6 +63,10 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Login}/{action=SignUp}/{id?}");
+    pattern: "{area=Member}/{controller=Comment}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "areas",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
