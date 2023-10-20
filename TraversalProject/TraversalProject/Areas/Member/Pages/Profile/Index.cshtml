@@ -1,8 +1,41 @@
-@model dynamic
+@model ProfileEditVM
 
 @{
     ViewBag.Title = "title";
     Layout = "_UserLayout";
 }
 
-<h2>title</h2>
+<form method="post" enctype="multipart/form-data">
+    <label>Name</label>
+    <input type="text" class="form-control" asp-for="Name"/>
+    <br/>
+    <label>Surname</label>
+        <input type="text" class="form-control" asp-for="Surname"/>
+    <br/>
+    <label>Email</label>
+        <input type="text" class="form-control" asp-for="Email"/>
+    <br/>
+    <label>Username</label>
+        <input type="text" class="form-control" asp-for="Username"/>
+    <br/>
+    <label>Password</label>
+        <input type="text" class="form-control" asp-for="Password"/>
+    <br/>
+    <label>ConfirmPassword</label>
+        <input type="text" class="form-control" asp-for="ConfirmPassword"/>
+    <br/>
+    <label>Gender</label>
+        <input type="text" class="form-control" asp-for="Gender"/>
+    <br/>
+    <label>Image Url</label>
+            <input type="text" class="form-control" asp-for="ImageUrl"/>
+    <br/>
+    <label>Phone Number</label>
+            <input type="text" class="form-control" asp-for="PhoneNumber"/>
+    <br/>
+    <div class="form-group">
+        <label>Choose Image</label>
+        <input type="file" asp-for="Image" class="form-control"/>
+    </div>
+    <button class="btn btn-primary">Update</button>
+</form>

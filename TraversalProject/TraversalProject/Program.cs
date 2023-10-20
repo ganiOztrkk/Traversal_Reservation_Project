@@ -63,7 +63,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{area=Member}/{controller=Comment}/{action=Index}/{id?}");
+    pattern: "{controller=Login}/{action=SignIn}/{id?}");
 
 app.MapControllerRoute(
     name: "areas",

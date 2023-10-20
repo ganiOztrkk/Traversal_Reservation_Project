@@ -3,6 +3,7 @@ using BusinessLayer.Concrete;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using TraversalProject.Areas.Member.Models;
 
 
 namespace TraversalProject.Extensions;
@@ -12,6 +13,7 @@ public static class IocExtensions
     public static IServiceCollection AddInjections(this IServiceCollection services)
     {
         services.AddScoped<AppUser>();
+        services.AddScoped<ProfileEditVM>();
         
         services.AddScoped<IAbout2Service, About2Manager>();
         services.AddScoped<IAboutService, AboutManager>();
@@ -24,6 +26,7 @@ public static class IocExtensions
         services.AddScoped<ISubAboutService, SubAboutManager>();
         services.AddScoped<ITestimonialService, TestimonialManager>();
         services.AddScoped<ICommentService, CommentManager>();
+        services.AddScoped<IReservationService, ReservationManager>();
         
         services.AddScoped<IAbout2Dal, EfAbout2Dal>();
         services.AddScoped<IAboutDal, EfAboutDal>();
@@ -36,6 +39,7 @@ public static class IocExtensions
         services.AddScoped<ISubAboutDal, EfSubAboutDal>();
         services.AddScoped<ITestimonialDal, EfTestimonialDal>();
         services.AddScoped<ICommentDal, EfCommentDal>();
+        services.AddScoped<IReservationDal, EfReservatioDal>();
         
         return services;
     }

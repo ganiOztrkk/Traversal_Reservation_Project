@@ -103,7 +103,8 @@
 
     <ItemGroup>
       <Folder Include="Areas\Member\Data\" />
-      <Folder Include="Areas\Member\Models\" />
+      <Folder Include="Areas\Member\Views\Shared\" />
+      <Folder Include="wwwroot\userimages\" />
     </ItemGroup>
 
 </Project>

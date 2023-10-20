@@ -3,8 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TraversalProject.Areas.Member.Controllers;
 
-[AllowAnonymous]
 [Area("Member")]
+[Route("Member/[controller]/[action]")]
 public class CommentController : Controller
 {
     

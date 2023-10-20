@@ -11,11 +11,13 @@ public class LoginController : Controller
 {
     private readonly UserManager<AppUser> _userManager;
     private readonly AppUser _appUser;
+    private readonly SignInManager<AppUser> _signInManager;
 
-    public LoginController(UserManager<AppUser> userManager, AppUser appUser)
+    public LoginController(UserManager<AppUser> userManager, AppUser appUser, SignInManager<AppUser> signInManager)
     {
         _userManager = userManager;
         _appUser = appUser;
+        _signInManager = signInManager;
     }
 
     [HttpGet]
@@ -55,8 +57,11 @@ public class LoginController : Controller
     }
 
     [HttpPost]
-    public IActionResult SignIn(string user)
+    public async Task<IActionResult> SignIn(UserLoginVM userLoginVm)
     {
-        return View();
+        if (!ModelState.IsValid) return View();
+        var result =
+            await _signInManager.PasswordSignInAsync(userLoginVm.Username!, userLoginVm.Password!, false, false);
+        return result.Succeeded ? RedirectToAction("Index", "Profile", new{area="Member"}) : RedirectToAction("SignIn");
     }
 }
