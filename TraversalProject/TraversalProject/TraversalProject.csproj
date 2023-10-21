@@ -11,6 +11,9 @@
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
+      <Content Include="wwwroot\sneat\.github\workflows\handle-new-issue-comment.yml" />
+      <Content Include="wwwroot\sneat\.github\workflows\handle-new-issue.yml" />
+      <Content Include="wwwroot\sneat\.github\workflows\issue-staler.yml" />
       <Content Include="wwwroot\soft-ui-dashboard-main\.github\workflows\main.yml" />
     </ItemGroup>
 
@@ -102,6 +105,9 @@
     </ItemGroup>
 
     <ItemGroup>
+      <Folder Include="Areas\Admin\Data\" />
+      <Folder Include="Areas\Admin\Models\" />
+      <Folder Include="Areas\Admin\Views\" />
       <Folder Include="Areas\Member\Data\" />
       <Folder Include="Areas\Member\Views\Shared\" />
       <Folder Include="wwwroot\userimages\" />

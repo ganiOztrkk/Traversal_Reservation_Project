@@ -1,0 +1,51 @@
+@model Destination
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>City</label>
+        <input type="text" class="form-control" asp-for="City"/>
+    </div>
+    <div class="form-group">
+        <label>Day-Nights</label>
+        <input type="text" class="form-control" asp-for="DayNight"/>
+    </div>
+    <div class="form-group">
+        <label>Price</label>
+        <input type="text" class="form-control" asp-for="Price"/>
+    </div>
+    <div class="form-group">
+        <label>Main Image Url</label>
+        <input type="text" class="form-control" asp-for="ImageUrl"/>
+    </div>
+    <div class="form-group">
+            <label>Image Url2</label>
+            <input type="text" class="form-control" asp-for="ImageUrl2"/>
+        </div>
+    <div class="form-group">
+        <label>Description</label>
+        <input type="text" class="form-control" asp-for="Description"/>
+    </div>
+    <div class="form-group">
+        <label>Capasity</label>
+        <input type="text" class="form-control" asp-for="Capasity"/>
+    </div>
+    <div class="form-group">
+        <label>Cover Image Url</label>
+        <input type="text" class="form-control" asp-for="CoverImage"/>
+    </div>
+    <div class="form-group">
+        <label>Details 1</label>
+        <textarea class="form-control" asp-for="Details1"></textarea>
+    </div>
+    <div class="form-group">
+        <label>Details 2</label>
+        <textarea class="form-control" asp-for="Details2"></textarea>
+    </div>
+    <br/>
+    <button class="btn btn-success">Add</button>
+</form>

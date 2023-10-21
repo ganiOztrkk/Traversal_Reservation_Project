@@ -1,0 +1,29 @@
+@model Reservation
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_UserLayout";
+}
+
+<form method="post">
+    <div class="form-group">
+        <label>Destinations</label>
+        <select asp-for="DestinationId"
+                asp-items="@ViewBag.Destinations" class="form-control">
+            <option>Please select one.</option>
+        </select>
+    </div> 
+    <div class="form-group">
+        <label>Kişi Sayısı</label>
+        <input type="text" class="form-control" required="" asp-for="PersonCount"/>
+    </div>
+    <div class="form-group">
+        <label>Date</label>
+        <input type="date" class="form-control" required="" asp-for="ReservationDate"/>
+    </div>
+    <div class="form-group">
+        <label>Anything to say</label>
+        <textarea class="form-control" spellcheck="false" asp-for="Description"></textarea>
+    </div>
+    <button class="btn btn-primary">Reservate</button>
+</form>

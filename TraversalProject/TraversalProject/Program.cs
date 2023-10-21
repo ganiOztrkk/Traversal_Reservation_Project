@@ -33,9 +33,10 @@ builder.Services.AddMvc(config =>
 builder.Services.AddControllersWithViews()
     .AddRazorOptions(options =>
     {
-        options.ViewLocationFormats.Add("/Pages/{0}.cshtml");
+        options.ViewLocationFormats.Add("/Pages/{0}.cshtml"); // pages içinde components
         options.ViewLocationFormats.Add("/Pages/{1}/{0}" + RazorViewEngine.ViewExtension);
         options.AreaViewLocationFormats.Add("/Areas/{2}/Pages/{1}/{0}.cshtml");
+        options.AreaViewLocationFormats.Add("/Areas/{2}/Pages/{0}.cshtml"); // areada pages içinde components
     })
     .AddRazorRuntimeCompilation();
 //builder.Services.Configure<RazorViewEngineOptions>(opt =>

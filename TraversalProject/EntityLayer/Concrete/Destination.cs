@@ -16,4 +16,5 @@ public class Destination : IEntity
     public string? ImageUrl2 { get; set; }
 
     public List<Comment>? Comments { get; set; }
+    public List<Reservation>? Reservations { get; set; }
 }

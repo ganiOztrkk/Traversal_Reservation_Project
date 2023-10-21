@@ -1,0 +1,28 @@
+@model IEnumerable<Reservation>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_UserLayout";
+}
+
+<h1>Past Reservations</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Reservation ID</th>
+        <th>Destination</th>
+        <th>People Count</th>
+        <th>Reservation Date</th>
+        <th>Status</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ReservationId</td>
+            <td>@item.Destination!.City</td>
+            <td>@item.PersonCount</td>
+            <td>@item.ReservationDate</td>
+            <td>@item.Status</td>
+        </tr>
+    }
+</table>

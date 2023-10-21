@@ -62,6 +62,6 @@ public class LoginController : Controller
         if (!ModelState.IsValid) return View();
         var result =
             await _signInManager.PasswordSignInAsync(userLoginVm.Username!, userLoginVm.Password!, false, false);
-        return result.Succeeded ? RedirectToAction("Index", "Profile", new{area="Member"}) : RedirectToAction("SignIn");
+        return result.Succeeded ? RedirectToAction("Index", "Dashboard", new{area="Member"}) : RedirectToAction("SignIn");
     }
 }

@@ -44,7 +44,7 @@ public class ProfileController : Controller
             var saveLocation = resource + "/wwwroot/userimages/" + imageName;
             var stream = new FileStream(saveLocation, FileMode.Create);
             await profileEditVm.Image.CopyToAsync(stream);
-            user!.ImageUrl = imageName;
+            user!.ImageUrl = "/userimages/" + imageName;
         }
 
         user!.Name = profileEditVm.Name;

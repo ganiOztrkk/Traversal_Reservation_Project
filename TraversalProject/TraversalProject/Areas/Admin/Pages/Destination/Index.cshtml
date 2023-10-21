@@ -1,0 +1,35 @@
+@model IEnumerable<Destination>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "_AdminLayout";
+}
+
+<h2>Destinations</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>City</th>
+        <th>Day-Nights</th>
+        <th>Capasity</th>
+        <th>Price</th>
+        <th>Go Website</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.DestinationId</td>
+            <td>@item.City</td>
+            <td>@item.DayNight</td>
+            <td>@item.Capasity</td>
+            <td>@item.Price</td>
+            <td><a href="#" class="btn btn-info">Go Website</a></td>
+            <td><a asp-controller="Destination" asp-action="DeleteDestination" asp-route-id="@item.DestinationId" class="btn btn-danger">Delete</a></td>
+            <td><a asp-controller="Destination" asp-action="UpdateDestination" asp-route-id="@item.DestinationId" class="btn btn-warning">Update</a></td>
+        </tr>
+    }
+</table>
+<a href="/Admin/Destination/AddDestination/" class="btn btn-success">Add Destination</a>
