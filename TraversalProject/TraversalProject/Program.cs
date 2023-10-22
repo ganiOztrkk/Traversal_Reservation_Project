@@ -58,6 +58,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseStatusCodePagesWithReExecute("/ErrorPage/Error404/","?code={0}");
 
 app.UseAuthentication();
 app.UseAuthorization();

@@ -27,6 +27,7 @@ public static class IocExtensions
         services.AddScoped<ITestimonialService, TestimonialManager>();
         services.AddScoped<ICommentService, CommentManager>();
         services.AddScoped<IReservationService, ReservationManager>();
+        services.AddScoped<IAppUserService, AppUserManager>();
         
         services.AddScoped<IAbout2Dal, EfAbout2Dal>();
         services.AddScoped<IAboutDal, EfAboutDal>();
@@ -40,6 +41,7 @@ public static class IocExtensions
         services.AddScoped<ITestimonialDal, EfTestimonialDal>();
         services.AddScoped<ICommentDal, EfCommentDal>();
         services.AddScoped<IReservationDal, EfReservatioDal>();
+        services.AddScoped<IAppUserDal, EfAppUserDal>();
         
         return services;
     }

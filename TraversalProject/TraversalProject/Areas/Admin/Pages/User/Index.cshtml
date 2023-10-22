@@ -1,0 +1,33 @@
+@model IEnumerable<AppUser>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Name Surname</th>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Comments</th>
+        <th>Past Reservations</th>
+        <th>Update</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Name @item.Surname</td>
+            <td>@item.UserName</td>
+            <td>@item.Email</td>
+            <td><a asp-controller="User" asp-action="CommentUser" asp-route-id="@item.Id" class="btn btn-info">Comments</a></td>
+            <td><a asp-controller="User" asp-action="ReservationUser" asp-route-id="@item.Id" class="btn btn-info">Reservations</a></td>
+            <td><a asp-controller="User" asp-action="DeleteUser" asp-route-id="@item.Id" class="btn btn-danger">Delete</a></td>
+            <td><a asp-controller="User" asp-action="UpdateUser" asp-route-id="@item.Id" class="btn btn-warning">Update</a></td>
+        </tr>
+    }
+</table>
+<a asp-controller="Login" asp-action="SignUp" class="btn btn-primary">Add User</a>

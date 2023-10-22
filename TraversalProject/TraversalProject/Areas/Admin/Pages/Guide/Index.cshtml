@@ -1,0 +1,38 @@
+@model IEnumerable<Guide>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Image Url</th>
+        <th>Name Surname</th>
+        <th>Description</th>
+        <th>Status</th>
+        <th>Update</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.GuideId</td>
+            <td>
+                <img src="@item.Image" alt="" style="width: 100px; height: 100px"/></td>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+            @if (item.Status == true)
+            {
+                <td><a asp-controller="Guide" asp-action="PassiveGuide" asp-route-id="@item.GuideId" class="btn btn-success">Active</a></td>
+            }
+            else
+            {
+                <td><a asp-controller="Guide" asp-action="ActivateGuide" asp-route-id="@item.GuideId" class="btn btn-danger">Passive</a></td>
+            }
+            <td><a asp-controller="Guide" asp-action="UpdateGuide" asp-route-id="@item.GuideId" class="btn btn-warning">Update</a></td>
+        </tr>
+    }
+</table>
+<a asp-controller="Guide" asp-action="AddGuide" class="btn btn-primary">New Guide</a>

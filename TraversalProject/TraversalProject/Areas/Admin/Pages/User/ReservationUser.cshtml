@@ -1,0 +1,28 @@
+@model IEnumerable<Reservation>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>Reservation ID</th>
+        <th>User</th>
+        <th>Destination</th>
+        <th>People Count</th>
+        <th>Reservation Date</th>
+        <th>Status</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ReservationId</td>
+            <td>@item.AppUser!.Name @item.AppUser.Surname</td>
+            <td>@item.Destination!.City</td>
+            <td>@item.PersonCount</td>
+            <td>@Convert.ToDateTime(@item.ReservationDate).ToShortDateString()</td>
+            <td>@item.Status</td>
+        </tr>
+    }
+</table>
