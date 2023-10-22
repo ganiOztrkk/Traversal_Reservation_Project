@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "BusinessLayer/1.0.0": {
         "dependencies": {
+          "DTOLayer": "1.0.0",
           "DataAccessLayer": "1.0.0",
           "EntityLayer": "1.0.0",
           "FluentValidation": "11.7.1",
@@ -812,6 +813,11 @@
           "DataAccessLayer.dll": {}
         }
       },
+      "DTOLayer/1.0.0": {
+        "runtime": {
+          "DTOLayer.dll": {}
+        }
+      },
       "EntityLayer/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity": "2.2.0",
@@ -1469,6 +1475,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "DataAccessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DTOLayer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

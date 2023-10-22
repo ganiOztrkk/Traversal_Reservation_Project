@@ -1,9 +1,6 @@
-using BusinessLayer.Abstract;
-using BusinessLayer.Concrete;
-using DataAccessLayer.Abstract;
 using DataAccessLayer.Concrete;
-using DataAccessLayer.EntityFramework;
 using EntityLayer.Concrete;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -29,6 +26,9 @@ builder.Services.AddMvc(config =>
         .Build();
     config.Filters.Add(new AuthorizeFilter(policy));
 });
+
+builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddFluentValidationAutoValidation();
 
 builder.Services.AddControllersWithViews()
     .AddRazorOptions(options =>

@@ -1,8 +1,11 @@
 using BusinessLayer.Abstract;
 using BusinessLayer.Concrete;
+using BusinessLayer.ValidationRules;
 using DataAccessLayer.Abstract;
 using DataAccessLayer.EntityFramework;
+using DTOLayer.DTOs.AnnouncementDTOs;
 using EntityLayer.Concrete;
+using FluentValidation;
 using TraversalProject.Areas.Member.Models;
 
 
@@ -14,6 +17,7 @@ public static class IocExtensions
     {
         services.AddScoped<AppUser>();
         services.AddScoped<ProfileEditVM>();
+        services.AddTransient<IValidator<AnnouncementAddDTOs>, AnnouncementValidator>();
         
         services.AddScoped<IAbout2Service, About2Manager>();
         services.AddScoped<IAboutService, AboutManager>();
@@ -28,6 +32,8 @@ public static class IocExtensions
         services.AddScoped<ICommentService, CommentManager>();
         services.AddScoped<IReservationService, ReservationManager>();
         services.AddScoped<IAppUserService, AppUserManager>();
+        services.AddScoped<IContactMessageService, ContactMessageManager>();
+        services.AddScoped<IAnnouncementService, AnnouncementManager>();
         
         services.AddScoped<IAbout2Dal, EfAbout2Dal>();
         services.AddScoped<IAboutDal, EfAboutDal>();
@@ -42,6 +48,8 @@ public static class IocExtensions
         services.AddScoped<ICommentDal, EfCommentDal>();
         services.AddScoped<IReservationDal, EfReservatioDal>();
         services.AddScoped<IAppUserDal, EfAppUserDal>();
+        services.AddScoped<IContactMessageDal, EfContactMessageDal>();
+        services.AddScoped<IAnnouncementDal, EfAnnouncementDal>();
         
         return services;
     }

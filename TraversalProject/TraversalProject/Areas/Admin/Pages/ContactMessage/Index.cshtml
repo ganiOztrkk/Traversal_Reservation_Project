@@ -1,0 +1,28 @@
+@model IEnumerable<ContactMessage>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Sender</th>
+        <th>Subject</th>
+        <th>Date</th>
+        <th>Open Message</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ContactMessageId</td>
+            <td>@item.Name</td>
+            <td>@item.Subect</td>
+            <td>@item.MessageDate.ToShortDateString()</td>
+            <td><a asp-controller="ContactMessage" asp-action="MessageDetail" asp-route-id="@item.ContactMessageId" class="btn btn-info">Open</a></td>
+            <td><a asp-controller="ContactMessage" asp-action="DeleteMessage" asp-route-id="@item.ContactMessageId" class="btn btn-danger">Delete</a></td>
+        </tr>
+    }
+</table>

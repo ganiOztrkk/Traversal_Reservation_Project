@@ -1609,6 +1609,16 @@
           "bin/placeholder/DataAccessLayer.dll": {}
         }
       },
+      "DTOLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DTOLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTOLayer.dll": {}
+        }
+      },
       "EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3972,6 +3982,11 @@
       "path": "../DataAccessLayer/DataAccessLayer.csproj",
       "msbuildProject": "../DataAccessLayer/DataAccessLayer.csproj"
     },
+    "DTOLayer/1.0.0": {
+      "type": "project",
+      "path": "../DTOLayer/DTOLayer.csproj",
+      "msbuildProject": "../DTOLayer/DTOLayer.csproj"
+    },
     "EntityLayer/1.0.0": {
       "type": "project",
       "path": "../EntityLayer/EntityLayer.csproj",
@@ -3980,6 +3995,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "DTOLayer >= 1.0.0",
       "DataAccessLayer >= 1.0.0",
       "EntityLayer >= 1.0.0",
       "FluentValidation >= 11.7.1",
@@ -4020,6 +4036,9 @@
           "projectReferences": {
             "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DataAccessLayer/DataAccessLayer.csproj": {
               "projectPath": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DataAccessLayer/DataAccessLayer.csproj"
+            },
+            "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/DTOLayer.csproj": {
+              "projectPath": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/DTOLayer.csproj"
             },
             "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/EntityLayer/EntityLayer.csproj": {
               "projectPath": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/EntityLayer/EntityLayer.csproj"

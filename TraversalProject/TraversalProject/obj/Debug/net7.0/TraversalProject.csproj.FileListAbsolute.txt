@@ -565,3 +565,7 @@
 /Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/NETCore.MailKit.dll
 /Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/System.Security.Cryptography.Pkcs.dll
 /Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/runtimes/win/lib/net7.0/System.Security.Cryptography.Pkcs.dll
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/DTOLayer.dll
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/DTOLayer.pdb
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/AutoMapper.dll
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -1,0 +1,20 @@
+@model Announcement
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+<form method="post">
+    <input type="hidden" class="form-control" asp-for="AnnouncementId"/>
+    <input type="hidden" class="form-control" asp-for="Date"/>
+    <label>Title</label>
+    <input type="text" class="form-control" asp-for="Title"/>
+    <span asp-validation-for="Title" style="color: red;"></span>
+    <br/>
+    <label>Content</label>
+    <input type="text" class="form-control" asp-for="Content"/>
+    <span asp-validation-for="Content" style="color: red;"></span>
+    <br/>
+    <button class="btn btn-success">Update Announcement</button>
+</form>

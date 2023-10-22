@@ -1,0 +1,11 @@
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/bin/Debug/net7.0/DTOLayer.deps.json
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/bin/Debug/net7.0/DTOLayer.dll
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/bin/Debug/net7.0/DTOLayer.pdb
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/obj/Debug/net7.0/DTOLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/obj/Debug/net7.0/DTOLayer.AssemblyInfoInputs.cache
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/obj/Debug/net7.0/DTOLayer.AssemblyInfo.cs
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/obj/Debug/net7.0/DTOLayer.csproj.CoreCompileInputs.cache
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/obj/Debug/net7.0/DTOLayer.dll
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/obj/Debug/net7.0/refint/DTOLayer.dll
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/obj/Debug/net7.0/DTOLayer.pdb
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/obj/Debug/net7.0/ref/DTOLayer.dll

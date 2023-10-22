@@ -29,6 +29,9 @@
               "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DataAccessLayer/DataAccessLayer.csproj": {
                 "projectPath": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DataAccessLayer/DataAccessLayer.csproj"
               },
+              "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/DTOLayer.csproj": {
+                "projectPath": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/DTOLayer.csproj"
+              },
               "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/EntityLayer/EntityLayer.csproj": {
                 "projectPath": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/EntityLayer/EntityLayer.csproj"
               }
@@ -193,6 +196,59 @@
         }
       }
     },
+    "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/DTOLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/DTOLayer.csproj",
+        "projectName": "DTOLayer",
+        "projectPath": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/DTOLayer.csproj",
+        "packagesPath": "/Users/gani/.nuget/packages/",
+        "outputPath": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/DTOLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/gani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/EntityLayer/EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -320,6 +376,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.7.1, )"

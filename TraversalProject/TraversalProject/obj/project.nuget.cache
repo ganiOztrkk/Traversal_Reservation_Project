@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "zpmO+2UT6BcDK5mzx2SVyROn1YQ9cToYGxTlDgqHYTIohyedl7Y/iY/mWC+cce8WN44J8f3Jlt5JaNDHPc8uDQ==",
+  "dgSpecHash": "IU8RbMD/W1pG5Vm6bNpgwhvhgI8x7TN+tBLd46rw2EGL8VDhJTjcPbQxtjdQ2C9CIGpYjgpw2JAlAVyD1ju2sA==",
   "success": true,
   "projectFilePath": "/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/TraversalProject.csproj",
   "expectedPackageFiles": [
+    "/Users/gani/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/gani/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/gani/.nuget/packages/azure.core/1.25.0/azure.core.1.25.0.nupkg.sha512",
     "/Users/gani/.nuget/packages/azure.identity/1.7.0/azure.identity.1.7.0.nupkg.sha512",
     "/Users/gani/.nuget/packages/bouncycastle.cryptography/2.2.1/bouncycastle.cryptography.2.2.1.nupkg.sha512",
@@ -95,7 +97,7 @@
     "/Users/gani/.nuget/packages/microsoft.codeanalysis.razor/6.0.11/microsoft.codeanalysis.razor.6.0.11.nupkg.sha512",
     "/Users/gani/.nuget/packages/microsoft.codeanalysis.scripting.common/4.4.0/microsoft.codeanalysis.scripting.common.4.4.0.nupkg.sha512",
     "/Users/gani/.nuget/packages/microsoft.codeanalysis.workspaces.common/4.4.0/microsoft.codeanalysis.workspaces.common.4.4.0.nupkg.sha512",
-    "/Users/gani/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/gani/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/gani/.nuget/packages/microsoft.data.sqlclient/5.1.1/microsoft.data.sqlclient.5.1.1.nupkg.sha512",
     "/Users/gani/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.0/microsoft.data.sqlclient.sni.runtime.5.1.0.nupkg.sha512",
     "/Users/gani/.nuget/packages/microsoft.diasymreader/1.4.0/microsoft.diasymreader.1.4.0.nupkg.sha512",
