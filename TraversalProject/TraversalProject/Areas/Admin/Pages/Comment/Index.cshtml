@@ -1,0 +1,26 @@
+@model IEnumerable<Comment>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>User</th>
+        <th>Blog</th>
+        <th>Date</th>
+        <th>Delete</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CommentId</td>
+            <td>@item.CommentUser</td>
+            <td>@item.Destination!.City</td>
+            <td>@item.CommentDate.ToShortDateString()</td>
+            <td><a asp-controller="Comment" asp-action="DeleteComment" asp-route-id="@item.CommentId" class="btn btn-danger">Delete</a></td>
+        </tr>
+    }
+</table>

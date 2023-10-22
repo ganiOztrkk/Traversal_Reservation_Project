@@ -22,6 +22,42 @@ build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVmYXVsdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Areas/Admin/Pages/Comment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQ29tbWVudC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Areas/Admin/Pages/Components/_DashboardBanner1VC/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQ29tcG9uZW50cy9fRGFzaGJvYXJkQmFubmVyMVZDL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Areas/Admin/Pages/Components/_DashboardBanner2VC/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQ29tcG9uZW50cy9fRGFzaGJvYXJkQmFubmVyMlZDL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Areas/Admin/Pages/Components/_DashboardBanner3VC/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQ29tcG9uZW50cy9fRGFzaGJvYXJkQmFubmVyM1ZDL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Areas/Admin/Pages/Components/_DashboardBanner4VC/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQ29tcG9uZW50cy9fRGFzaGJvYXJkQmFubmVyNFZDL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Areas/Admin/Pages/Components/_DashboardBanner5VC/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQ29tcG9uZW50cy9fRGFzaGJvYXJkQmFubmVyNVZDL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Areas/Admin/Pages/Components/_DashboardBanner6VC/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQ29tcG9uZW50cy9fRGFzaGJvYXJkQmFubmVyNlZDL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Areas/Admin/Pages/Components/_DashboardBanner7VC/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvQ29tcG9uZW50cy9fRGFzaGJvYXJkQmFubmVyN1ZDL0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Areas/Admin/Pages/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Areas/Admin/Pages/Destination/AddDestination.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vUGFnZXMvRGVzdGluYXRpb24vQWRkRGVzdGluYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -158,8 +194,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXRQYXJ0aWFsL19IZWFkUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/AdminLayoutPartial/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXRQYXJ0aWFsL19OYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/AdminLayoutPartial/_ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXRQYXJ0aWFsL19TY3JpcHRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/AdminLayoutPartial/_SideBarPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXRQYXJ0aWFsL19TaWRlQmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/AdminLayoutPartial/_UserImagePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5MYXlvdXRQYXJ0aWFsL19Vc2VySW1hZ2VQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/Views/LayoutPartial/_FooterPartial.cshtml]

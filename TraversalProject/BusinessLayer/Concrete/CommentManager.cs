@@ -37,4 +37,9 @@ public class CommentManager : ICommentService
     {
         return _commentDal.GetList();
     }
+
+    public List<Comment> GetCommentListWithDestination()
+    {
+        return _commentDal.GetCommentListWithDestination();
+    }
 }
