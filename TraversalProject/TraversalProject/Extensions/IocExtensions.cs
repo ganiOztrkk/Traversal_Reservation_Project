@@ -7,6 +7,7 @@ using DTOLayer.DTOs.AnnouncementDTOs;
 using EntityLayer.Concrete;
 using FluentValidation;
 using TraversalProject.Areas.Member.Models;
+using TraversalProject.CQRS.Handlers.DestinationHandlers;
 
 
 namespace TraversalProject.Extensions;
@@ -16,6 +17,11 @@ public static class IocExtensions
     public static IServiceCollection AddInjections(this IServiceCollection services)
     {
         services.AddScoped<AppUser>();
+        services.AddScoped<GetAllDestinationQueryHandler>();
+        services.AddScoped<GetDestinationByIDQueryHandler>();
+        services.AddScoped<CreateDestinationCommandHandler>();
+        services.AddScoped<RemoveDestinationCommandHandler>();
+        services.AddScoped<UpdateDestinationCommandHandler>();
         services.AddScoped<ProfileEditVM>();
         services.AddTransient<IValidator<AnnouncementAddDTOs>, AnnouncementValidator>();
         

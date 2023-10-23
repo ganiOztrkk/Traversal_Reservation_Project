@@ -1,0 +1,21 @@
+@model GetDestinationByIDQueryResult
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+
+<form method="post">
+    <input type="hidden" asp-for="DestinationID" />
+    <label>City</label>
+    <input type="text" asp-for="City" class="form-control" />
+    <br />
+    <label>Day Night</label>
+    <input type="text" asp-for="DayNight" class="form-control" />
+    <br />
+    <label>Price</label>
+    <input type="text" asp-for="Price" class="form-control" />
+    <br />
+    <button class="btn btn-outline-success">Update</button>
+</form>

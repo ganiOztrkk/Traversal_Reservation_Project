@@ -1,0 +1,26 @@
+@model IEnumerable<ApiMovieVM>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Movie Name</th>
+        <th>Imdb Rate</th>
+        <th>Publish Date</th>
+        <th>Trailer</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Rank</td>
+            <td>@item.Title</td>
+            <td>@item.Rating</td>
+            <td>@item.Year</td>
+            <td>@item.Trailer</td>
+        </tr>
+    }
+</table>

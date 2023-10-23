@@ -29,6 +29,7 @@ builder.Services.AddMvc(config =>
 
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddHttpClient();
 
 builder.Services.AddControllersWithViews()
     .AddRazorOptions(options =>
