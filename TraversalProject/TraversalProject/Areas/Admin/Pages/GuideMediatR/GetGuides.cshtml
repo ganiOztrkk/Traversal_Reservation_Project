@@ -1,0 +1,17 @@
+@model GetGuideByIDQueryResult
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_AdminLayout";
+}
+
+<form method="post">
+    <input type="hidden" asp-for="GuideID" />
+    <label>Guide Name</label>
+    <input type="text" class="form-control" asp-for="Name" />
+    <br />
+    <label>Guide Description</label>
+    <input type="text" class="form-control" asp-for="Description" />
+    <br />
+    <button class="btn btn-outline-primary">Update</button>
+</form>

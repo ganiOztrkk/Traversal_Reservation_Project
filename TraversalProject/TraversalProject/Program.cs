@@ -1,6 +1,7 @@
 using DataAccessLayer.Concrete;
 using EntityLayer.Concrete;
 using FluentValidation.AspNetCore;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.AspNetCore.Mvc.Razor;
@@ -30,6 +31,7 @@ builder.Services.AddMvc(config =>
 builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddFluentValidationAutoValidation();
 builder.Services.AddHttpClient();
+builder.Services.AddMediatR(typeof(Program));
 
 builder.Services.AddControllersWithViews()
     .AddRazorOptions(options =>
@@ -66,7 +68,7 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Login}/{action=SignIn}/{id?}");
+    pattern: "{controller=Default}/{action=Index}/{id?}");
 
 app.MapControllerRoute(
     name: "areas",

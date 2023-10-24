@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TraversalProject.Controllers;
 
+
 public class ErrorPageController : Controller
 {
     // GET

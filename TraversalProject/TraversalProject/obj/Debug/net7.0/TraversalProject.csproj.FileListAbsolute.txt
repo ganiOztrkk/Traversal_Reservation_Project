@@ -569,3 +569,6 @@
 /Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/DTOLayer.pdb
 /Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/AutoMapper.dll
 /Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/MediatR.dll
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/MediatR.Contracts.dll
+/Users/gani/Desktop/Github/Traversal_Reservation_Project/TraversalProject/TraversalProject/bin/Debug/net7.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
