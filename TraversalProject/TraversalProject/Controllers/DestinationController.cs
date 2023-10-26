@@ -26,6 +26,7 @@ public class DestinationController : Controller
     public IActionResult DestinationDetails(int id)
     {
         ViewBag.Id = id;
+        TempData["DestinationId"] = id;
         var values = _destinationService.GetById(id);
         return View(values);
     }
