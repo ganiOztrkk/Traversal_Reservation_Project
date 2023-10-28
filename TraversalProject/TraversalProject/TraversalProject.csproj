@@ -102,6 +102,7 @@
       <_ContentIncludedByDefault Remove="wwwroot\Traversal-Starter\services.html" />
       <_ContentIncludedByDefault Remove="wwwroot\Traversal-Starter\starter-license-W3Layouts.txt" />
       <_ContentIncludedByDefault Remove="Views\Default\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Member\Pages\Components\_LastDestinations\Default.cshtml" />
     </ItemGroup>
 
     <ItemGroup>

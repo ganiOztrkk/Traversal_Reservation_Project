@@ -37,4 +37,9 @@ public class DestinationManager : IDestinationService
     {
         return _destinationDal.GetList();
     }
+
+    public List<Destination> GetLast4Destinations()
+    {
+        return _destinationDal.GetLast4Destinations();
+    }
 }
